@@ -1,0 +1,36 @@
+/* Este fragmento de código es una hoja de estilos CSS 
+que define la apariencia visual de elementos HTML en una página web. Permíteme explicarte lo que hace:
+
+body: Aquí se establecen las propiedades para todo el cuerpo del documento HTML. En este caso:
+El color del texto se establece en #222, que es un gris oscuro.
+La fuente se establece como sans-serif, que es una familia de fuentes sin remates (como Arial o Helvetica).
+.reloj: Esto se refiere a una clase CSS llamada “reloj”. 
+Las clases se utilizan para aplicar estilos a varios elementos en una página web. En este caso:
+El fondo se crea con un degradado lineal desde el color #111 (negro) hasta el color #666 (gris oscuro).
+Se agrega un borde de 2 píxeles de ancho con color negro (#000).
+El contenido dentro de los elementos con esta clase se muestra como elementos en línea flexibles.
+.reloj div: Esto se refiere a los elementos <div> dentro de la clase “reloj”. En este caso:
+El color del texto se establece en #fff, que es blanco.
+Hay un relleno de 5 píxeles arriba y abajo y 9 píxeles a los lados.
+El tamaño de fuente es de 20 píxeles.
+La fuente se establece como monospace, que es una fuente de ancho fijo (cada carácter ocupa el mismo espacio). */
+
+
+
+body{
+    color: #222;
+    font-family: sans-serif;
+}
+
+.reloj{
+    background: linear-gradient(#111,#666);
+    border: 2px solid #000;
+    display: inline-flex;
+}
+
+.reloj div{
+    color: #fff;
+    padding: 5px 9px;
+    font-size: 20px;
+    font-family: monospace;
+}
